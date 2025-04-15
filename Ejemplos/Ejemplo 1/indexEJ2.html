@@ -1,0 +1,48 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title>Formulario de Contacto</title> 
+</head> 
+<body> 
+<h1>Contáctanos</h1> 
+<form action="/enviar" method="post">
+<label for="rut">Rut: </label> 
+<input type="text" id="rut" name="rut"> <br> 
+<label for="nombre">Nombre: </label> 
+<input type="text" id="nombre" name="nombre"> <br> 
+<label for="apellido">apellido: </label> 
+<input type="text" id="apellido" name="apellido"> <br> 
+<label for="email">Email:</label>
+<input type="email" id="email" name="email"> <br>
+<label for="edad">Edad:</label>
+<input type="int" id="edad" name="edad"> <br> 
+<br>
+<div>
+    <table></table>
+    <label for="">Seleccionar Genero:</label><br>
+    <label for="">Otro</label>
+    <input type="radio" class="" name="opcionGenero" id="opcionGenero">
+    <label for="">Masculino</label>
+    <input type="radio" class="" name="opcionGenero" id="opcionGenero">
+    <label for="">Femenino</label>
+    <input type="radio" class="" name="opcionGenero" id="opcionGenero">
+    </table>
+</div> 
+
+<br>
+<div>
+    <label for="">Seleccionar Fecha:</label>
+    <input type="date">
+</div>
+<div>
+    <select name="" id="" multiple>
+        <option value="">Seleccionar...</option>
+        <option value="">Opcion 1</option>
+        <option value="">Opcion 2</option>
+        <option value="">Opcion 3</option>
+    </select>
+</div>
+<button type="submit"> Enviar Datos</button> 
+</form> 
+</body> 
+</html>
